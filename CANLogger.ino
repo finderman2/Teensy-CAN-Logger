@@ -92,7 +92,7 @@ void loop() {
   }
   Serial.print("Writing to: ");
   Serial.println(name);
-  file.println("seconds,milliSec, ID, B0, B1, B2, B3, B4, B5, B6, B7"); //, B0(DEC), B1(DEC), B2(DEC), B3(DEC), B4(DEC), B5(DEC), B6(DEC), B7(DEC)");
+  file.println("Millis, ID, Ext, Bus, Len, B0, B1, B2, B3, B4, B5, B6, B7"); 
   //file.println(buffer1);
   //file.println();  
   Serial.println("Header written to SD Card");  
